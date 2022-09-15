@@ -4,9 +4,11 @@ const Question = () => {
   return (
     <Flex
       direction="column"
-      alignItems="center"
+      alignItems={{ base: "center", lg: "flex-start" }}
       h={694}
-      bgImage="/question-bg.png"
+      bgImage={{ base: "/question-bg.png", lg: "/desktop-question-bg.png" }}
+      bgRepeat="no-repeat"
+      bgSize="cover"
       py={20}
       px={9}
       justifyContent="space-between"
@@ -14,14 +16,14 @@ const Question = () => {
       <Heading
         color="white"
         textAlign="center"
-        w={246}
+        w={{ base: 246, lg: 390 }}
         h={288}
-        fontSize={48}
+        fontSize={{ base: 48, lg: 76 }}
         fontWeight={600}
       >
         Questions about buying or renting?
       </Heading>
-      <Button w="full" h="60px" colorScheme="red">
+      <Button w={{ base: "full", lg: 410 }} h="60px" colorScheme="red">
         Ask Us
       </Button>
     </Flex>
