@@ -9,6 +9,7 @@ const Question = () => {
       bgImage={{ base: "/question-bg.png", lg: "/desktop-question-bg.png" }}
       bgRepeat="no-repeat"
       bgSize="cover"
+      bgPosition="center"
       py={20}
       px={9}
       justifyContent="space-between"

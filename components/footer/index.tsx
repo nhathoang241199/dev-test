@@ -230,7 +230,16 @@ const Footer = () => {
             </Flex>
             <Flex pb={5} mt={4}>
               <Icon color="#232323" as={AiFillMail} />
-              <Text ml={2} textAlign="left" flex={1} fontSize={12}>
+              <Text
+                cursor="pointer"
+                _hover={{
+                  opacity: 0.8,
+                }}
+                ml={2}
+                textAlign="left"
+                flex={1}
+                fontSize={12}
+              >
                 hello@carbuyer.com.sg
               </Text>
             </Flex>
@@ -239,13 +248,37 @@ const Footer = () => {
             <Text color="#232323" fontWeight={600}>
               Services
             </Text>
-            <Text mt={2} color="#5F5F5F" fontSize={14}>
+            <Text
+              cursor="pointer"
+              _hover={{
+                opacity: 0.8,
+              }}
+              mt={2}
+              color="#5F5F5F"
+              fontSize={14}
+            >
               Buy Used Cars
             </Text>
-            <Text mt={2} color="#5F5F5F" fontSize={14}>
+            <Text
+              cursor="pointer"
+              _hover={{
+                opacity: 0.8,
+              }}
+              mt={2}
+              color="#5F5F5F"
+              fontSize={14}
+            >
               Buy New Cars
             </Text>
-            <Text mt={2} color="#5F5F5F" fontSize={14}>
+            <Text
+              cursor="pointer"
+              _hover={{
+                opacity: 0.8,
+              }}
+              mt={2}
+              color="#5F5F5F"
+              fontSize={14}
+            >
               Be a Dealer with UCARS
             </Text>
           </Flex>
@@ -253,13 +286,37 @@ const Footer = () => {
             <Text color="#232323" fontWeight={600}>
               Resources
             </Text>
-            <Text mt={2} color="#5F5F5F" fontSize={14}>
+            <Text
+              cursor="pointer"
+              _hover={{
+                opacity: 0.8,
+              }}
+              mt={2}
+              color="#5F5F5F"
+              fontSize={14}
+            >
               News
             </Text>
-            <Text mt={2} color="#5F5F5F" fontSize={14}>
+            <Text
+              cursor="pointer"
+              _hover={{
+                opacity: 0.8,
+              }}
+              mt={2}
+              color="#5F5F5F"
+              fontSize={14}
+            >
               Sell My Car
             </Text>
-            <Text mt={2} color="#5F5F5F" fontSize={14}>
+            <Text
+              cursor="pointer"
+              _hover={{
+                opacity: 0.8,
+              }}
+              mt={2}
+              color="#5F5F5F"
+              fontSize={14}
+            >
               COE Prices
             </Text>
           </Flex>
@@ -267,13 +324,37 @@ const Footer = () => {
             <Text color="#232323" fontWeight={600}>
               About
             </Text>
-            <Text mt={2} color="#5F5F5F" fontSize={14}>
+            <Text
+              cursor="pointer"
+              _hover={{
+                opacity: 0.8,
+              }}
+              mt={2}
+              color="#5F5F5F"
+              fontSize={14}
+            >
               About Us
             </Text>
-            <Text mt={2} color="#5F5F5F" fontSize={14}>
+            <Text
+              cursor="pointer"
+              _hover={{
+                opacity: 0.8,
+              }}
+              mt={2}
+              color="#5F5F5F"
+              fontSize={14}
+            >
               Contact Us
             </Text>
-            <Text mt={2} color="#5F5F5F" fontSize={14}>
+            <Text
+              cursor="pointer"
+              _hover={{
+                opacity: 0.8,
+              }}
+              mt={2}
+              color="#5F5F5F"
+              fontSize={14}
+            >
               Careers
             </Text>
           </Flex>
@@ -314,16 +395,60 @@ const Footer = () => {
               </Text>
               <Flex alignItems="center">
                 <Icon
+                  cursor="pointer"
+                  _hover={{
+                    opacity: 0.8,
+                  }}
                   w={4}
                   h={4}
                   mr={2}
                   color="#232323"
                   as={AiOutlineInstagram}
                 />
-                <Icon w={4} h={4} mr={2} color="#232323" as={FaFacebookF} />
-                <Icon w={4} h={4} mr={2} color="#232323" as={FaTelegramPlane} />
-                <Icon w={4} h={4} mr={2} color="#232323" as={ImLinkedin2} />
-                <Icon w={4} h={4} mr={2} color="#232323" as={AiFillYoutube} />
+                <Icon
+                  cursor="pointer"
+                  _hover={{
+                    opacity: 0.8,
+                  }}
+                  w={4}
+                  h={4}
+                  mr={2}
+                  color="#232323"
+                  as={FaFacebookF}
+                />
+                <Icon
+                  cursor="pointer"
+                  _hover={{
+                    opacity: 0.8,
+                  }}
+                  w={4}
+                  h={4}
+                  mr={2}
+                  color="#232323"
+                  as={FaTelegramPlane}
+                />
+                <Icon
+                  cursor="pointer"
+                  _hover={{
+                    opacity: 0.8,
+                  }}
+                  w={4}
+                  h={4}
+                  mr={2}
+                  color="#232323"
+                  as={ImLinkedin2}
+                />
+                <Icon
+                  cursor="pointer"
+                  _hover={{
+                    opacity: 0.8,
+                  }}
+                  w={4}
+                  h={4}
+                  mr={2}
+                  color="#232323"
+                  as={AiFillYoutube}
+                />
               </Flex>
             </Flex>
           </Flex>

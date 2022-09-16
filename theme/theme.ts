@@ -16,6 +16,10 @@ const theme = extendTheme({
         800: "#EE1B24"
     }
   },
+  fonts: {
+    heading: `'Poppins', sans-serif`,
+    body: `'Poppins', sans-serif`,
+  },
 })
 
 export default theme;

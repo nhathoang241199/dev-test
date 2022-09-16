@@ -36,11 +36,16 @@ const Banner = () => {
           px={4}
           alignItems="center"
         >
-          <Flex flex={3} direction="column" alignSelf="flex-start" mt={4}>
+          <Flex
+            flex={3}
+            direction="column"
+            justifyContent={{ base: "center", lg: "flex-start" }}
+            h="full"
+          >
             <Heading
               color="white"
               as="h2"
-              fontSize={{ base: "20px", lg: "60px" }}
+              fontSize={{ base: "24px", sm: "28px", md: "32px", lg: "60px" }}
               textOverflow=""
               fontWeight="bold"
               mb={{ base: 2, lg: 4 }}
@@ -48,12 +53,11 @@ const Banner = () => {
               Car Marketplace
             </Heading>
             <Text
-              w={{ base: 200, lg: 496 }}
-              textOverflow={{ base: "ellipsis", lg: "unset" }}
-              whiteSpace={{ base: "nowrap", lg: "normal" }}
+              w={{ base: 200, sm: 320, md: 496 }}
               overflow="hidden"
+              //   display={{ base: "none", sm: "block" }}
               color="white"
-              fontSize={{ base: "14px", lg: "18px" }}
+              fontSize={{ base: "10px", sm: "12px", md: "14px", lg: "18px" }}
               mb={{ base: 0, lg: 8 }}
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio

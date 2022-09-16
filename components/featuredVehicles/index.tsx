@@ -57,11 +57,15 @@ const FeaturedVehicles = () => {
       w="full"
     >
       <Flex justifyContent="space-between" w="full">
-        <Flex direction="column">
+        <Flex
+          alignItems={{ base: "center", lg: "flex-start" }}
+          direction="column"
+        >
           <Heading
             mb={2}
             color="red.500"
             fontSize={{ base: 32, lg: 48 }}
+            textAlign={{ base: "center", lg: "left" }}
             fontWeight="bold"
           >
             Our Featured Vehicles.
@@ -101,7 +105,7 @@ const FeaturedVehicles = () => {
               ) : (
                 // <></>
                 <Flex
-                  border="1px solid #F1F2F5"
+                  border={{ base: "1px solid #F1F2F5", lg: "none" }}
                   w={{ base: 390, lg: 416 }}
                   bg="white"
                   pr={6}
