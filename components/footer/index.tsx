@@ -29,8 +29,8 @@ const Footer = () => {
         </Text>
         <Text mb={8} fontSize={12}>
           Start your car buying journey with UCARS as we connect you seamlessly
-          to the industry's best CaseTrust-SVTA accredited car dealerships. As a
-          one stop car online portal you can now buy your new ride, be it a
+          to the industry&apos;s best CaseTrust-SVTA accredited car dealerships.
+          As a one stop car online portal you can now buy your new ride, be it a
           pre-owned car or a brand new car from trusted dealers all over
           Singapore, all in one place. Our ever expanding listing of quality and
           covet-worthy cars, new and second hand, from both owners and trusted
@@ -66,10 +66,10 @@ const Footer = () => {
           of enhancing customer experience. So come on over to buy and sell used
           cars online at the best prices at UCARS Singapore. Connect easily with
           dealers in real-time via our online video call feature, or schedule a
-          test drive when you're ready. Have some questions? Get them answered
-          instantly with our chatbot moderated by our responsive team. Stay in
-          the loop with our car-related tips, reviews and news. Learn the
-          ins-and-outs of your car, as well as global and Singapore’s car
+          test drive when you&apos;re ready. Have some questions? Get them
+          answered instantly with our chatbot moderated by our responsive team.
+          Stay in the loop with our car-related tips, reviews and news. Learn
+          the ins-and-outs of your car, as well as global and Singapore’s car
           updates at your own pace.
         </Text>
       </Flex>
