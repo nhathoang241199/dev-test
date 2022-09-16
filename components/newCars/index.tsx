@@ -177,8 +177,8 @@ const NewCars = () => {
                 opacity: 0.9,
               }}
               filter="drop-shadow(0px 0px 1px rgba(48, 49, 51, 0.05)) drop-shadow(0px 8px 16px rgba(48, 49, 51, 0.1))"
-              w={280}
-              h={352}
+              w={{ base: 280, lg: "full" }}
+              h={{ base: 352, lg: "full" }}
               mr={10}
               key={car.id}
               bg="white"
@@ -187,7 +187,11 @@ const NewCars = () => {
               overflow="hidden"
             >
               {car.advertisement ? (
-                <Image src="/advertisement.png" alt="advertisement" />
+                <Image
+                  h={{ base: 352, lg: 364 }}
+                  src="/advertisement.png"
+                  alt="advertisement"
+                />
               ) : (
                 <>
                   <Image src={car.image} alt="new car" />

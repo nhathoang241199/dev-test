@@ -103,7 +103,7 @@ const Search = () => {
             boxShadow="20px 20px 120px 15px rgba(0, 0, 0, 0.05)"
             border="1px solid #E3E3E3"
             borderRadius={10}
-            mx={62}
+            mx="64px"
             h="138px"
           >
             <Flex
